@@ -32,7 +32,6 @@ The dataset was loaded directly from **Kaggle** using the Kaggle API and split i
 - **20%** Validation Set
 
 ## Project Structure
-## Project Structure
 
 ```text
 rice-classification-cnn/
@@ -52,37 +51,39 @@ rice-classification-cnn/
 └── requirements.txt        # Project dependencies
 ```
 
-
 ## Project Preview
 
 The following figures present the main outputs of the TensorFlow implementation.
 
 ### Training Accuracy
 
-![Training Accuracy](results/training_accuracy.png)
+![Training Accuracy](results/tensorflow/training_accuracy.png)
+
+---
 
 ### Training Loss
 
-![Training Loss](results/training_loss.png)
+![Training Loss](results/tensorflow/training_loss.png)
+
+---
 
 ### Confusion Matrix
 
-![Confusion Matrix](results/confusion_matrix.png)
+![Confusion Matrix](results/tensorflow/confusion_matrix.png)
 
 ## TensorFlow Implementation
 
-The TensorFlow implementation includes the complete deep learning workflow:
+This project implements an end-to-end image classification pipeline using TensorFlow and Keras.
 
-- Loading the dataset from Kaggle
-- Data preprocessing and normalization
-- Building a Convolutional Neural Network (CNN)
-- Training the model
-- Evaluating model performance
-- Generating the confusion matrix
-- Creating the classification report
+The workflow includes:
+
+- Loading the Rice Image Dataset from Kaggle
+- Image preprocessing and normalization
+- Building a custom CNN architecture
+- Training and validating the model
+- Evaluating performance using multiple metrics
 - Saving the trained model
-- Predicting new rice images
-
+- Running inference on new rice images
 ## Training Results
 
 The TensorFlow CNN achieved the following results:
