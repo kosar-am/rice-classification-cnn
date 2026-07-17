@@ -36,19 +36,20 @@ The dataset was loaded directly from **Kaggle** using the Kaggle API and split i
 ```text
 rice-classification-cnn/
 │
-├── images/                 # Images used in the README
+├── images/
 │
-├── notebooks/              # Jupyter notebooks
+├── notebooks/
 │   ├── 01_dataset_inspection.ipynb
 │   ├── 02_tensorflow_cnn.ipynb
-│   ├── 03_prediction_and_inference.ipynb
-│   └── 04_pytorch_cnn.ipynb
+│   ├── 03_tensorflow_inference.ipynb
+│   ├── 04_pytorch_cnn.ipynb
+│   └── 05_pytorch_inference.ipynb
 │
-├── results/                # Training results and evaluation outputs
+├── results/
 │
-├── README.md               # Project documentation
+├── README.md
 │
-└── requirements.txt        # Project dependencies
+└── requirements.txt
 ```
 
 ## Project Preview
